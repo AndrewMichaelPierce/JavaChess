@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:id="gridPane" alignment="center" gridLinesVisible="true" hgap="10" prefHeight="800.0" prefWidth="1200.0" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints maxWidth="800.0" minWidth="784.0" prefWidth="800.0" />
+      <ColumnConstraints maxWidth="400.0" minWidth="400.0" prefWidth="400.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <GridPane fx:id="boardColors" prefHeight="800.0" prefWidth="800.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+
+
+            <Pane fx:id="a81" prefHeight="200.0" prefWidth="200.0" />
+            <Pane fx:id="b81" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="1" />
+            <Pane fx:id="c81" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+            <Pane fx:id="d81" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="3" />
+            <Pane fx:id="e81" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" />
+            <Pane fx:id="f81" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="5" />
+            <Pane fx:id="g81" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" />
+            <Pane fx:id="h81" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="7" />
+            <Pane fx:id="a71" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.rowIndex="1" />
+            <Pane fx:id="b71" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Pane fx:id="c71" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Pane fx:id="d71" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Pane fx:id="e71" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Pane fx:id="f71" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Pane fx:id="g71" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Pane fx:id="h71" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Pane fx:id="a61" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+            <Pane fx:id="b61" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Pane fx:id="c61" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Pane fx:id="d61" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Pane fx:id="e61" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Pane fx:id="f61" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Pane fx:id="g61" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Pane fx:id="h61" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Pane fx:id="a51" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.rowIndex="3" />
+            <Pane fx:id="b51" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Pane fx:id="c51" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Pane fx:id="d51" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Pane fx:id="e51" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Pane fx:id="f51" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Pane fx:id="g51" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Pane fx:id="h51" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Pane fx:id="a41" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4" />
+            <Pane fx:id="b41" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Pane fx:id="c41" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Pane fx:id="d41" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Pane fx:id="e41" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Pane fx:id="f41" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Pane fx:id="g41" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Pane fx:id="h41" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Pane fx:id="a31" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.rowIndex="5" />
+            <Pane fx:id="b31" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Pane fx:id="c31" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Pane fx:id="d31" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Pane fx:id="e31" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Pane fx:id="f31" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Pane fx:id="g31" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Pane fx:id="h31" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Pane fx:id="a21" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6" />
+            <Pane fx:id="b21" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Pane fx:id="c21" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Pane fx:id="d21" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Pane fx:id="e21" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Pane fx:id="f21" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Pane fx:id="g21" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Pane fx:id="h21" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Pane fx:id="a11" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.rowIndex="7" />
+            <Pane fx:id="b11" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Pane fx:id="c11" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Pane fx:id="d11" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Pane fx:id="e11" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Pane fx:id="f11" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Pane fx:id="g11" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #769656;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Pane fx:id="h11" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+
+         </children>
+      </GridPane>
+      <Pane prefHeight="800.0" prefWidth="800.0">
+         <children>
+            <Text fx:id="a1" layoutX="14.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♖" textAlignment="CENTER" wrappingWidth="73.13671875">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Text>
+             <Text fx:id="b1" layoutX="114.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♘" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c1" layoutX="212.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♗" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d1" layoutX="313.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♕" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e1" layoutX="415.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♔" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f1" layoutX="513.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♗" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g1" layoutX="613.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♘" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h1" layoutX="712.0" layoutY="767.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♖" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="a2" layoutX="14.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="b2" layoutX="114.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c2" layoutX="212.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d2" layoutX="313.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e2" layoutX="415.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f2" layoutX="513.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g2" layoutX="613.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h2" layoutX="712.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♙" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="a3" layoutX="14.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="b3" layoutX="114.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c3" layoutX="212.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d3" layoutX="313.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e3" layoutX="415.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f3" layoutX="513.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g3" layoutX="613.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h3" layoutX="712.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="a4" layoutX="14.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="b4" layoutX="114.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c4" layoutX="212.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d4" layoutX="313.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e4" layoutX="415.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f4" layoutX="513.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g4" layoutX="613.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h4" layoutX="712.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="a5" layoutX="14.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="b5" layoutX="114.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c5" layoutX="212.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d5" layoutX="313.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e5" layoutX="415.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f5" layoutX="513.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g5" layoutX="613.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h5" layoutX="712.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="a6" layoutX="14.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="b6" layoutX="114.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c6" layoutX="212.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d6" layoutX="313.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e6" layoutX="415.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f6" layoutX="513.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g6" layoutX="613.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h6" layoutX="712.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="a7" layoutX="14.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="b7" layoutX="114.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c7" layoutX="212.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d7" layoutX="313.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e7" layoutX="415.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f7" layoutX="513.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g7" layoutX="613.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h7" layoutX="712.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♟" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="a8" layoutX="14.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♜" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="b8" layoutX="114.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♞" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="c8" layoutX="212.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♝" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="d8" layoutX="313.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♛" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="e8" layoutX="415.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♚" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="f8" layoutX="513.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♝" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="g8" layoutX="613.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♞" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+             <Text fx:id="h8" layoutX="712.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="♜" textAlignment="CENTER" wrappingWidth="73.13671875">
+                 <font>
+                     <Font size="45.0" />
+                 </font>
+             </Text>
+            <Text fx:id="a121" layoutX="35.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="a" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1211" layoutX="135.0" layoutY="788.0" strokeType="OUTSIDE" strokeWidth="0.0" text="b" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1212" layoutX="233.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="c" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1213" layoutX="334.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="d" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1214" layoutX="436.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1215" layoutX="534.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="f" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1216" layoutX="634.0" layoutY="788.0" strokeType="OUTSIDE" strokeWidth="0.0" text="g" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1217" layoutX="733.0" layoutY="791.0" strokeType="OUTSIDE" strokeWidth="0.0" text="h" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1218" layoutX="8.0" layoutY="754.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a1219" layoutX="8.0" layoutY="657.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a12110" layoutX="8.0" layoutY="555.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a12111" layoutX="8.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a12112" layoutX="8.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a12113" layoutX="8.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a12114" layoutX="8.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="a12115" layoutX="8.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" textAlignment="CENTER" wrappingWidth="31.13671875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane prefHeight="800.0" prefWidth="400.0" style="-fx-background-color: #769656;" GridPane.columnIndex="1">
+         <children>
+            <Pane fx:id="coverButtons" layoutX="98.0" layoutY="4.0" prefHeight="153.0" prefWidth="200.0" style="-fx-background-color: #769656;" />
+            <Button fx:id="newGameWhite" layoutX="136.0" layoutY="68.0" mnemonicParsing="false" onAction="#startGameAsWhite" prefHeight="25.0" prefWidth="134.0" text="New Game as White" />
+            <!--<Button fx:id="newGameBlack" layoutX="136.0" layoutY="115.0" mnemonicParsing="false" onAction="#startGameAsBlack" prefHeight="25.0" prefWidth="134.0" text="New Game as Black" />-->
+            <Button fx:id="resign" layoutX="139.0" layoutY="645.0" mnemonicParsing="false" onAction="#endGame" prefHeight="25.0" prefWidth="123.0" text="Resign" />
+            <Label fx:id="gameWarning" alignment="CENTER" layoutX="93.0" layoutY="537.0" prefHeight="60.0" prefWidth="213.0" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="moveBox" layoutX="58.0" layoutY="450.0" />
+            <Text fx:id="a12" layoutX="133.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All moves are entered by listing the starting square and the ending square.  For example, to move the white rook pawn on queen side of the board, type a2a4 in the box below.  To castle kingside, type 0-0, for queenside castling, type 0-0-0." textAlignment="CENTER" wrappingWidth="134.13671875" />
+            <Button fx:id="submitMove" layoutX="239.0" layoutY="450.0" mnemonicParsing="false" onAction="#createCurrentMove" text="Submit Move" />
+            <Button fx:id="howToPlay" layoutX="136.0" layoutY="163.0" mnemonicParsing="false" onAction="#showInstructions" prefHeight="25.0" prefWidth="134.0" text="How to Play" />
+            <Button fx:id="hideButton" layoutX="138.0" layoutY="406.0" mnemonicParsing="false" onAction="#hideInstructions" prefHeight="25.0" prefWidth="123.0" text="Hide Instructions" />
+            <Pane fx:id="coverInstructions" layoutX="98.0" layoutY="213.0" prefHeight="225.0" prefWidth="200.0" style="-fx-background-color: #769656;" />
+            <Pane fx:id="coverSubmitMove" layoutX="47.0" layoutY="445.0" prefHeight="44.0" prefWidth="303.0" style="-fx-background-color: #769656;" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
